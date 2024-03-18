@@ -1,0 +1,12 @@
+@media screen and (max-width: 800px) {
+    .py-4{
+        padding-left: 46px;
+    
+    }
+    }
+    @media screen and (max-width: 289px) {
+        .py-4{
+            padding-left: 15px;
+        
+        }
+        }

@@ -1,0 +1,328 @@
+.contentAddQuestion {
+    display: flex;
+    width: 100%;
+}
+#editquestion_submitbtn
+{
+    max-width: 84%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-drp-Add {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.tag-input-Add {
+    margin-left: 23%;
+}
+
+#QuestionAddFrom {
+    margin-left: 15%;
+}
+
+.manstar-p {
+    font-weight: bold;
+    color: red;
+    font-size: large;
+}
+
+.sub-btnn {
+    display: flex;
+    justify-content: center;
+ 
+    margin-top: 2%;
+}
+
+.question {
+    font-size: medium;
+    border: 1px solid rgba(128, 128, 128, 0);
+    width: 83%;
+    height: 5%;
+    padding: 5px 0;
+
+}
+
+.contentAddQuestion-Add {
+    margin-left: 220px;
+}
+
+.adtitle {
+    max-width: 960px;
+}
+
+#tg {
+    margin-top: 10px;
+
+    max-width: 945px;
+}
+
+.autoc {
+    max-width: 797px;
+}
+
+.tagE {
+    font-weight: bold;
+    color: red;
+    font-size: 100%;
+}
+.spacing-div{
+    height: 20px;
+}
+@media (min-width: 1875px){
+    .sub-btnn {
+        margin-left: -9% !important;
+      }
+}
+@media (min-width: 701px) and (max-width: 955px) {
+    #title {
+      font-size: 16x;
+      margin-left: 18%;
+    }
+    .contentAddQuestion-Add {
+    margin-left: 0 !important;
+  }
+}
+@media (min-width: 955px) and (max-width: 1210px) {
+    #title {
+      font-size: 20x;
+      margin-left: 20%;
+    }
+  }
+.desc {
+    font-size: medium;
+    border: 1px solid grey;
+    width: 70%;
+    margin-top: 20px;
+    padding: 5px 7px;
+}
+
+#txtExample {
+    padding: 20px;
+}
+
+#title {
+    margin-bottom: 2%;
+    text-align: center;
+    color: #507082;
+}
+
+
+
+#type {
+    width: 50%;
+    height: 50px;
+    background-color: #66b3ff;
+    border-radius: 6px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+#typeD {
+    width: 50%;
+    height: 50px;
+    background-color: #9fcfff;
+    border-radius: 6px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.select-btn {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.select-btn .btn-text {
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+}
+
+.select-btn .arrow-dwn {
+    display: flex;
+    height: 21px;
+    width: 21px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50%;
+    background: #6e93f7;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.select-btn.open .arrow-dwn {
+    transform: rotate(-180deg);
+}
+
+.list-items {
+    position: relative;
+    height: 200px;
+    overflow-y: scroll;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+#cursor {
+    cursor: pointer;
+}
+
+.select-btn.open~.list-items {
+    display: block;
+}
+
+.list-items .item1 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+
+    transition: 0.3s;
+    padding: 0 15px;
+    border-radius: 8px;
+}
+
+.qtitle {
+    max-width: 960px;
+}
+
+.list-items .item1:hover {
+    background-color: #e7edfe;
+}
+
+.item1 .item-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    margin-left: 3%;
+}
+
+.item1 .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    width: 16px;
+    border-radius: 4px;
+    margin-right: 12px;
+    border: 1.5px solid #c0c0c0;
+    transition: all 0.3s ease-in-out;
+}
+
+.item.checked .checkbox {
+    background-color: #4070f4;
+    border-color: #4070f4;
+}
+
+.checkbox .check-icon {
+    color: #fff;
+    font-size: 11px;
+    transform: scale(0);
+    transition: all 0.2s ease-in-out;
+}
+
+.item.checked .check-icon {
+    transform: scale(1);
+}
+
+.check {
+    color: white;
+}
+
+#tagcheck {
+    cursor: pointer;
+}
+
+.error {
+    color: red
+}
+
+.error-show-questionadd {
+    color: red;
+
+}
+
+.user-Pro{
+    border-radius: 50px;
+      position: fixed;
+      right: 36px;
+      top: 5px;
+      margin: 10px 30px;
+      color: rgb(110, 109, 109);
+      cursor: pointer;
+      width: 45px;
+  }
+  .user_rep
+  {
+     border-radius: 50px;
+      position: fixed;
+      right: 87px;
+      width:48px !important;
+      top: 4px;
+      margin: 10px 30px;
+      color: rgb(110, 109, 109);
+      cursor: pointer;
+  }
+  .user_points{ 
+      position: fixed;
+      right: 75px;
+      width:160px !important;
+      top: 20px;
+      margin: 10px 30px;
+      color: rgb(110, 109, 109);
+      cursor: pointer;
+      width: 45px;
+  }
+
+.clearAllnotifications {
+    margin-left: 40%;
+    color: blue !important;
+    cursor: pointer;
+}
+
+.mandotory {
+    color: red;
+}
+
+.colorNotification0 {
+    color: rgb(116, 116, 116) !important;
+}
+
+.colorNotification1 {
+    color: rgb(0, 0, 0) !important;
+}
+
+.Forflex {
+    display: flex;
+}
+
+@media screen and (max-width:1200px) {
+    .main-content {
+        width: 100%;
+    }
+
+    .tag-input {
+        margin-left: 0;
+    }
+}
+
+
